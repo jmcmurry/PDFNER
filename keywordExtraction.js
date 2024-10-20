@@ -3,7 +3,7 @@ const SOURCE_FOLDER_ID = 'YOUR_FOLDER_ID'; // Folder with PDFs
 const SHEET_ID = 'YOUR_SHEET_ID'; // Google Sheet ID
 const EXTRACTED_TAB = 'NAME_OF_RESULTS_TAB_IN_SHEET'; // Sheet tab for extracted data
 
-// Combined keywords with case sensitivity flags
+// Combined keywords with case sensitivity flags, comment out ones you aren't interested in for a particular posting, or add your own
 const combinedKeywords = {
   // Front-End
   'Ajax': { terms: ['AJAX', 'Ajax'], caseSensitive: false },
