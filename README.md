@@ -31,6 +31,7 @@ Update the following global constants in the script:
 const SOURCE_FOLDER_ID = 'Your_Google_Drive_Folder_ID';
 const SHEET_ID = 'Your_Google_Sheet_ID';
 const EXTRACTED_TAB = 'extracted';
+```
 
 ### 4. Permissions
 Ensure that the script has access to your Google Drive and Google Sheets. When you first run the script, you will be prompted to grant permissions for:
